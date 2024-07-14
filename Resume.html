@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title> Isabella's Website </title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+<!--Navigation Bar--> 
+<div class = "styled-text">
+
+    <nav>
+        <a href = "index.html">Home</a> 
+        <a href = "resume.html">Resume</a> 
+        <a href = "projects.html">Projects</a> 
+        <a href="about.html">About</a>
+    </nav>
+</div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+<!-- Resume Link -->
+<div class = "styled-link">
+    <a href = "Isabella Key - Resume.pdf" >Click here to view the PDF version</a>
+</div>
+
+<!--Envelope Text-->
+<div class = "envelope-name">
+    <h5>Isabella Key</h5>
+</div>
+
+<div class = "envelop-email">
+    <h5>keymi822@gmail.com</h5>
+</div> 
+
+<div class = "envelope-link">
+    <a href = "http://linkedin.com/in/isabella-key-b33277293"> Linkedin Profile </a>
+</div>
+
+<!-- Envelope Image -->
+<img src = "envelope.png" alt = "Envelope" class = "Envelope-image"/>
+
+<!-- Education -->
+<div class = "education-title">
+    <h1>Education</h1>
+</div> 
+
+<!-- Notepad Image -->
+<img src = "notepad.png" alt = "Notepad" class = "Notepad-image"/>
+
+<!--Notepad Text-->
+<div class = "Maryville-title">
+    <p><b>Maryville University</b></p>
+</div>
+
+<div class = "Graduation-date">
+    <p>May 2027</p>
+</div>
+
+<div class = "degree-title">
+    <p><i>Computer Science Bachelor's Degree</i></p>
+</div>
+
+<div class = "Gpa-title">
+    <p>GPA: 4.0</p>
+</div>
+
+<div class = "Classes-info">
+    <p>Classes: Python, C++, Discrete Math, Digital Media</p>
+
+</div>
+
+<div class = "ND-title">
+    <p><b>Notre Dame High School</b></p>
+</div>
+
+<div class = "ND-graduation-date">
+    <p>May 2023</p>
+</div>
+
+<div class = "ND-degree-title">
+    <p><i>High School Diploma</i></p>
+</div>
+
+<div class = "ND-gpa-title">
+    <p>GPA: 4.0</p>
+</div>
+
+<div class = "ND-classes-info">
+    <p>Classes: AP Computer Science, ACC Pre-Calculus</p>
+</div>
+
+<!-- Experience -->
+<div class = "Experience-title">
+    <h1> Experience </h1>
+</div>
+
+<!-- Postcard Image -->
+<img src = "Postcard.png" alt = "Postcard" class = "Postcard-image"/>
+
+<!--Postcard Text-->
+<div class = "M-location">
+    <p><b> Maryville University </b></p>
+</div>
+
+<div class = "M-position">
+    <p><i> Student Success Front Desk <br> Attendant </i></p>
+</div>
+
+<div class = "M-info">
+    <p> • Strong verbal and written <br> communication skills for writing <br> emails and answering inquiries. <br>
+        • Attention to detail in handling <br> paperwork. <br> 
+        • Excels in a variety of tasks and <br> open to learning new things. <br>
+     </p>
+</div>
+
+<div class = "M-year">
+    <p> August 2023 - Present </p>
+</div>
+
+<div class = "Panera-location">
+    <p><b> Panera Bread </b></p>
+</div>
+
+<div class = "Panera-position">
+    <p><i> Cashier </i></p>
+</div>
+
+<div class="Panera-info">
+    <p> 
+        • Flexibility while thriving in a <br> fast-paced work environment.<br>
+        • Offers support to team members <br> with effective communication <br> and collaborative skills.<br>
+        • Cultivates an inviting and <br> warm environment for customers.<br>
+    </p>
+</div>
+
+<div class = "Panera-year">
+    <p> February 2023 - Present </p>
+</div>
+
+<!-- Stamps Image -->
+<img src = "Stamps.png" alt = "Stamps" class = "Stamps-image"/>
+
+<!-- Skills -->
+<div class = "Skills-title">
+    <h1> Skills </h1>
+</div>
+
+<!-- Honors and Activites -->
+<div class = "Honors-Activites-title">
+    <h1> Honors & Activites </h1>
+</div>
+
+<style>
+    * {box-sizing: border-box}
+    .mySlides {display: none; justify-content: center; align-items: center;}
+    img { max-width: 100%; margin: auto; display: block;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin-top: 3500px;
+    }
+    
+    .mySlides img {
+        max-width: 50%; /* Adjust this value as needed */
+        margin: auto;
+        display: block;
+}
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: #ac8b72;
+      font-weight: bold;
+      font-size: 35px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #ac8b72;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    
+    .active, .dot:hover {
+      background-color: #c09f86;
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+      <div class="mySlides fade">
+      <img src="PostIt.svg"style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="Academics.svg"style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="hackathon.svg"style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="extracurriculars2.svg"style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class = "dot" onclick="currentSlide(4)"></span>
+    </div>
+
+
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+</html>

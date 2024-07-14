@@ -1,0 +1,534 @@
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.signika-negative {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Colored bar behind the navigation bar */
+.styled-text {
+    text-align: center;
+    background-color: #ECBFDA;
+    height: 50px;
+    width: 100%;
+
+}
+
+/* Navigation Bar */
+nav a {
+    margin: 10px; /* Adding some space between the navigation links */
+    text-decoration: none; /* Removing underlines from the links */
+    color: #644F51; /* Setting the color of the links */
+    font-size: 40px; /* Setting the font size of the links */
+    font-family: Acme, sans-serif;
+    font-weight: 100;
+}
+
+/* Background Color */
+body {
+    background-color: white ;
+} 
+
+/* Shelf Image */
+img.shelf-image {
+    margin-top: 300px; /* Move the image 20 pixels down */
+    margin-left: 100px; /* Move the image 30 pixels to the right */
+    width: 800px; /* Set the desired width */
+    height: auto; /* Set the desired height */  
+    position: relative;
+    z-index: 1;
+}
+
+/* Flower Pot Image */
+img.flowerpot-image { 
+    width: 200px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+    position: absolute;
+    z-index: 2; /* put it in front/on top of shelf */
+    left: 45px;
+    top: 110px;
+}
+
+/* Books Image */ 
+img.books-image { 
+    width: 400px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+    position: absolute;
+    z-index: 3; /* put it in front/on top of shelf */
+    left: 300px;
+    top: 228px; 
+}
+
+/* Candle Image */
+img.candle-image {
+    width: 125px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+    position: absolute;
+    z-index: 4; /* put it in front/on top of shelf */
+    left: 780px;
+    top: 97px;
+}
+
+img.shelf-2 { 
+    width: 825px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+    position: absolute;
+    z-index: 5; /* put it in front/on top of shelf */
+    left: 740px;
+    top: 727px;
+}
+
+img.jam {
+    width: 825px; /* Set the desired width */
+    height: auto; /* Set the desired height */
+    position: absolute;
+    z-index: 5; /* put it in front/on top of shelf */
+    left: 740px;
+    top: 727px; 
+}
+/* Design for the Resume PDF Link */
+.styled-link {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Acme, sans-serif;
+}
+
+/* Envelope Info */
+.envelope-name {
+    z-index: 3;
+    position: absolute;
+    left: 780px; 
+    top: 85px; 
+    font-size: 70px;
+    font-family: Acme, sans-serif;
+    color: #4D5A32;
+}
+
+.envelop-email {
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    left: 755px; 
+    top: 195px;
+    font-size: 45px;
+    font-family: Acme, sans-serif;
+    color: #A1A08B;
+}
+
+.envelope-link {
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    left: 800px; 
+    top: 310px; 
+    text-decoration: none; 
+    font-size: 40px;
+    font-family: Acme, sans-serif;
+    color: #DEDECA;
+} 
+
+/* Envelope Image */
+img.Envelope-image {
+    width: 450px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 1;
+    left: 700px;
+    top: 125px;
+    display: block;
+
+}
+
+
+/* Education Title Text */
+.education-title {
+    position: absolute;
+    z-index: 6;
+    top: 675px;
+    font-family: Acme, sans-serif;
+    color: #ac8b72;
+    font-size: 30px;
+
+}
+
+/* Notepad Image */
+img.Notepad-image {    
+    width: 900px;
+    height: auto; 
+    position: absolute;
+    z-index: 5;
+    left: 490px;
+    top: 800px;
+    display: block;
+}
+
+/* Education Text */
+.Maryville-title {
+    position: absolute;
+    z-index: 7;
+    top: 863px;
+    left: 525px;
+    font-family: Acme, sans-serif;
+    font-size: 40px;
+    color: #644F51
+}
+
+.Graduation-date {
+    position: absolute; 
+    z-index: 8; 
+    top: 881px;
+    right: 515px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px;
+    color: #644F51
+}
+
+.degree-title {
+    position: absolute;
+    z-index: 9;
+    top: 929px;
+    left: 525px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px;
+    color: #644F51;
+}
+
+.Gpa-title {
+    position: absolute;
+    z-index: 10;
+    top: 929px;
+    right: 530px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px; 
+    color: #644F51;
+}
+
+.Classes-info {
+    position: absolute;
+    z-index: 11;
+    top: 973px;
+    left: 525px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px; 
+    color: #644F51;
+}
+
+.ND-title {
+    position: absolute;
+    z-index: 12;
+    top: 1050px;
+    left: 525px;
+    font-family: Acme, sans-serif;
+    font-size: 40px;
+    color: #644F51;
+}
+
+.ND-graduation-date {
+    position: absolute; 
+    z-index: 13; 
+    top: 1067px;
+    right: 515px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px;
+    color: #644F51;
+}
+
+.ND-degree-title {
+    position: absolute;
+    z-index: 14; 
+    top: 1112px;
+    left: 525px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px;
+    color: #644F51;
+}
+
+.ND-gpa-title {
+    position: absolute;
+    z-index: 15; 
+    top: 1112px;
+    right: 532px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px; 
+    color: #644F51;
+}
+
+.ND-classes-info {
+    position: absolute;
+    z-index: 16; 
+    top: 1158px;
+    left: 525px;
+    font-family: Signika Negative, sans-serif;
+    font-size: 30px;
+    color: #644F51;
+}
+
+/* Experience Title Text */
+.Experience-title {
+    position: absolute; 
+    z-index: 17;
+    top: 1400px;
+    font-family: Acme, sans-serif;
+    color: #ac8b72;
+    font-size: 30px;
+}
+
+/* Postcard Image */
+img.Postcard-image {
+    width: 1000px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 18;
+    left: 200px;
+    top: 1540px;
+    display: block; 
+}
+
+/* Postcard Text */
+.M-location {
+    position: absolute; 
+    z-index: 19;
+    top: 1520px;
+    left: 220px;
+    font-family: Acme, sans-serif;
+    color:  #4d5a32;
+    font-size: 35px;
+}
+
+.M-position {
+    position: absolute; 
+    z-index: 20;
+    top: 1575px;
+    left: 220px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+.M-info {
+    position: absolute; 
+    z-index: 21;
+    top: 1635px;
+    left: 230px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+.M-year {
+    position: absolute; 
+    z-index: 22;
+    top: 1710px;
+    left: 650px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+.Panera-location {
+    position: absolute; 
+    z-index: 23;
+    top: 1900px;
+    left: 470px;
+    font-family: Acme, sans-serif;
+    color:  #4d5a32;
+    font-size: 35px;
+}
+
+.Panera-position {
+    position: absolute; 
+    z-index: 24;
+    top: 1955px;
+    left: 470px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+.Panera-info {
+    position: absolute; 
+    z-index: 25;
+    top: 1990px;
+    left: 480px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+.Panera-year {
+    position: absolute; 
+    z-index: 26;
+    top: 2120px;
+    left: 890px;
+    font-family: Signika Negative, sans-serif;
+    color: #4d5a32;
+    font-size: 25px;
+}
+
+/* Skills Title Text*/
+.Skills-title {
+    position: absolute; 
+    z-index: 27;
+    top: 2400px;
+    font-family: Acme, sans-serif;
+    color: #ac8b72;
+    font-size: 30px;
+}
+
+/* Stamps Image */
+.Stamps-image {
+    width: 1500px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 28;
+    top: 2550px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block; 
+}
+
+/* Honors Activities Title */
+.Honors-Activites-title {
+    position: absolute; 
+    z-index: 29;
+    top: 3400px;
+    font-family: Acme, sans-serif;
+    color: #ac8b72;
+    font-size: 30px;
+}
+
+/* About Page */
+.Self-image {
+    width: 500px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 1;
+    left: 5%;
+    display: block; 
+}
+
+/* About Title */
+.About-Title {
+    position: absolute; 
+    z-index: 2;
+    top: 5%;
+    left: 35%;
+    font-family: Acme, sans-serif;
+    color: #bda8d1;
+    font-size: 50px;
+}
+/* About Info */
+.School-Info {
+    position: absolute; 
+    z-index: 3;
+    top: 12%;
+    left: 35%;
+    font-family: Signika Negative, sans-serif;
+    color: #ac8b72;
+    font-size: 40px;
+    max-width: 40%; /* Set a maximum width for the text container */
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+}
+
+.Mushroom-Image {
+    width: 950px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 4;
+    left: 50%;
+    top: 600px;
+    display: block; 
+}
+
+.Why-Info {
+    position: absolute; 
+    z-index: 5;
+    top: 1000px;
+    left: 5%;
+    font-family: Signika Negative, sans-serif;
+    color: #ac8b72;
+    font-size: 40px;
+    max-width: 40%; /* Set a maximum width for the text container */
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+}
+
+.Moth-Image {
+    width: 700px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 6;
+    left: 1%;
+    top: 1475px;
+    display: block; 
+}
+
+.Law-Info {
+    position: absolute; 
+    z-index: 7;
+    top: 1640px;
+    left: 40%;
+    font-family: Signika Negative, sans-serif;
+    color: #ac8b72;
+    font-size: 40px;
+    max-width: 40%; /* Set a maximum width for the text container */
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+}
+
+.Berry-Image {
+    width: 700px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 8;
+    left: 60%;
+    top: 2275px;
+    display: block; 
+}
+
+.Free-Time {
+    position: absolute; 
+    z-index: 9;
+    top: 2475px;
+    left: 5%;
+    font-family: Signika Negative, sans-serif;
+    color: #ac8b72;
+    font-size: 40px;
+    max-width: 40%; /* Set a maximum width for the text container */
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+}
+
+.Website-Cup {
+    width: 600px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 1;
+    display: block; 
+}
+.Mobile-Cup {
+    width: 600px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 2;
+    left: 35%;
+    top: 150px;
+    display: block; 
+}
+
+.Hackathon-Cup {
+    width: 600px; 
+    height: auto; 
+    position: absolute; 
+    z-index: 3;
+    left: 68%;
+    display: block; 
+}
+
+
+

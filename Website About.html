@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title> Isabella's Website </title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+<!--Navigation Bar--> 
+<div class = "styled-text">
+
+    <nav>
+        <a href = "index.html">Home</a>  
+        <a href = "resume.html">Resume</a> 
+        <a href = "projects.html">Projects</a> 
+        <a href="about.html">About</a>
+    </nav>
+</div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+    <h1 class="why">The Why</h1>
+    <h1 class="inspiration">The Inspiration</h1>
+    <h1 class="how">The How</h1>
+    <h1 class="future">The Future</h1>
+
+    <h1 class = "w-line">_______________________</h1>
+    <h1 class = "i-line">_______________________</h1>
+    <h1 class = "h-line">_______________________</h1>
+    <h1 class = "f-line">_______________________</h1>
+
+    <p class = "why-description"> 
+    Why did I create this website? I originally got the idea from a 
+    few of my computer science classmates as they described creating a resume website as the 
+    perfect way to not only showcase your accomplishments, but also develop new skills. Since front 
+    end development is a topic I aspire to learn more about, I decided creating this website would be the
+    perfect opportunity.  </p>
+
+    <p class = "how-description">   
+    Prior to creating this resume website, I had little to no knowledge in front end 
+    development, but as someone who loves to learn new things, I was up for the challenge. Using online coding
+    tutorials, such as W3Schools and Mozilla Developer, helped me become more confident in my skills. The coding 
+    languages I learned for this project included HTML, CSS, and JavaScript. For my source code editor, I use
+    Visual Studio Code.  
+    Not only did I incorporate technical aspects of coding, but I also took the time to brush up on my skills
+    of art and design. All the artistic elements of the website are personally made, from the handpicked color
+    palette to the teacup drawings on the Projects page. For the typefaces, I used Google Fonts. In addition, I used 
+    a myriad of graphics and illustration platforms such as Adobe Illustrator, Procreate, and Inkscape.
+    </p>
+
+    <p class = "inspiration-description">     
+        During the ideation phase, I wanted my website to take its users on a 
+        delightful journey as they get to know me better.  And so, the questions asks: who am I? For starters,
+        my name is Isabella. I am a Computer Science student at Maryville University. I love all things pink and
+        I especially love flowers and nature. Creating art is a hobby of mine as well as reading. I love being able 
+        to immerse myself in a creative world where anything is possible. 
+        Too often in the world of science, technology, engineering, and math, there is an immense pressure to reject 
+        femineity to better fit in. Pink is often unfairly associated with a lack of professionalism. In addition, 
+        elements of art and design can be overlooked in favor of creating a sleek and minimalist look. When I 
+        originally got the idea for this website, I was afraid of associating the theme to a pastel, floral look 
+        because it might be seen as “too girly” or unserious. But that is the exact reason why I decided to go for 
+        it. I want my website to fully embody a fantastical art piece with a cottagecore aesthetic, characterized by
+        a pastel color palette illustrating elements of natural and floral designs. This visual approach plays to a 
+        more elegant and timeless feel while incorporating and highlighting the recent personal and academic 
+        accomplishments I have made.   </p>
+    
+    <p class = "future-description"> 
+    The world of technology is always changing, and as someone who loves 
+    learning new things, I know I will never get bored! Not only that, but I, myself, will also change. 
+    Whether it be highlighting new accomplishments, improving technological skills, or discovering new 
+    passions and delights, my resume will always feature new details. Because of this, my website will 
+    also be ever changing. Be sure to check back in the future to discover what new developments have been made! </p>
+
+<style>
+     p {
+            text-indent: 50px; /* Adjust the value as needed */
+        }
+
+    .why {
+        font-size: 50px;
+        position: absolute; 
+        z-index: 1;
+        top: 5%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #b4c7cc;
+    }
+
+    .w-line {
+        font-size: 50px;
+        position: absolute;
+        top: 4.5%;
+        left: 1%;
+        color: #b4c7cc;
+        font-weight: bold;
+    }
+
+    .why-description {
+        position: absolute; 
+        z-index: 2;
+        top: 15%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+    .inspiration {
+        position: absolute; 
+        z-index: 3;
+        top: 30%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #b4c7cc;
+        font-size: 50px;
+    }
+
+    .i-line {
+        font-size: 50px;
+        position: absolute;
+        top: 29.5%;
+        left: 1%;
+        color: #b4c7cc;
+        font-weight: bold;
+    }
+    
+    .inspiration-description {
+        position: absolute; 
+        z-index: 4;
+        top: 40%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+    }
+
+    .how {
+        position: absolute; 
+        z-index: 5;
+        top: 80%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #b4c7cc;
+        font-size: 50px;
+    }
+    
+    .h-line {
+        font-size: 50px;
+        position: absolute;
+        top: 79.5%;
+        left: 1%;
+        color: #b4c7cc;
+        font-weight: bold;
+    }
+
+    .how-description {
+        position: absolute; 
+        z-index: 6;
+        top: 90%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 40%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+    .future {
+        position: absolute; 
+        z-index: 7;
+        top: 120%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #b4c7cc;
+        font-size: 50px;
+    }
+
+    .f-line {
+        font-size: 50px;
+        position: absolute;
+        top: 119.5%;
+        left: 1%;
+        color: #b4c7cc;
+        font-weight: bold;
+    }
+    
+    .future-description {
+        position: absolute; 
+        z-index: 8;
+        top: 130%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+    
+</style>
+
+</body>
+</head>
