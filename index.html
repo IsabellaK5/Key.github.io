@@ -27,13 +27,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
 
 <!-- Shelf Image-->
-    <img src = "Shelf.png" alt = "Shelf" class = "shelf-image"/>
+    <img src = "Shelf.png" alt = "Shelf" class = "shelf-image" style="max-width:100%;height:auto;"/>
 
 <!-- Flower Pot Image -->
     <a href="Resume.html">
         <img src="FlowerPot.png" alt = "Flower Pot" class = "flowerpot-image"/>
       </a>
-
+      <style>
+        .flowerpot-image {
+            transition: transform 0.2s ease-out; /* Smooth transition for transform */
+        }
+        
+        .Pitcher-image:hover {
+            animation: bounce 0.5s ease; /* Apply bounce animation on hover */
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0); /* Start and end position */
+            }
+            50% {
+                transform: translateY(-20px); /* Bounce up */
+            }
+        }
+        </style>
 <!-- Book Image -->
       <img src = "Books.png" alt = "Books" class = "books-image"/>
 
@@ -55,10 +72,49 @@
       <img src = "Beetle.png" alt = "Beetle" class = "Beetle-image" />
 
 <!-- Pitcher Image-->
-      <img src = "Pitcher.png" alt = "Pitcher" class = "Pitcher-image" />
-
+    <a href = "About.html">
+        <img src = "Pitcher.png" alt = "Pitcher" class = "Pitcher-image" />
+        </a>
+        <style>
+            .Pitcher-image {
+                transition: transform 0.2s ease-out; /* Smooth transition for transform */
+            }
+            
+            .Pitcher-image:hover {
+                animation: bounce 0.5s ease; /* Apply bounce animation on hover */
+            }
+            
+            @keyframes bounce {
+                0%, 100% {
+                    transform: translateY(0); /* Start and end position */
+                }
+                50% {
+                    transform: translateY(-20px); /* Bounce up */
+                }
+            }
+            </style>
 <!-- Tree Image -->
+    <a href = "Projects.html">
       <img src = "Tree.png" alt = "Tree" class = "Tree-image" />
-
+    </a>
+    <style>
+        .Tree-image {
+            transition: transform 0.2s ease-out; /* Smooth transition for transform */
+        }
+        
+        .Tree-image:hover {
+            animation: bounce 0.5s ease; /* Apply bounce animation on hover */
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0); /* Start and end position */
+            }
+            50% {
+                transform: translateY(-20px); /* Bounce up */
+            }
+        }
+        </style>
+        
 </body>
 </html>

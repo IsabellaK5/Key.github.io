@@ -35,7 +35,7 @@
 
 <!-- About Title -->
 <div class = "About-Title">
-    <p> Hi! I'm Isabella! </p>
+    <p> Hello World! I'm Isabella! </p>
 </div>
 
 <!-- About Information -->
@@ -61,7 +61,7 @@
 
 <div class = "Why-Info">
     <p> I decided to create this website as a way to further improve my coding skills as well as showcase 
-        some of the awesome projects I've been working on! Click here to learn more. 
+        some of the awesome projects I've been working on! Click <a href = "Website About.html"> here </a> to learn more. 
     </p>
 </div>
 
@@ -75,6 +75,17 @@
 </div>
 
 <img src = "Berry.png" alt = "Berry" class = "Berry-Image"/>
+
+<style>
+.Berry-Image {
+    transform-style: preserve-3d; /* Ensure 3D transformation */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.Berry-Image:hover {
+    transform: rotateY(180deg); /* Flip the image horizontally */
+}
+</style>
 
 <div class = "Free-Time">
     <p> I'm constantly inspired by the world around me! When I'm not designing websites in my free time, you can find
