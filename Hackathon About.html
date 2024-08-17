@@ -25,3 +25,284 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+<style> 
+    * {
+        box-sizing: border-box;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+      }
+      
+      .column {
+        flex: 25%; /* Each column takes up one-third of the row */
+        padding: 4px;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          flex: 100%; /* Each column takes up the full width */
+        }
+      }
+</style>
+
+<h1 class="planning">The Planning</h1> 
+<h1 class = "pl-line"></h1>
+<p class = "planning-desc">
+        In 2024, I participated in Missouri S&T’s annual Pickhacks competition. There, students were tasked with 
+        creating security themed software or hardware projects. In preparation of the weekend-long competition, my 
+        team and I created a shared Word document in which we compiled ideas for potential software projects.  
+    </p>
+
+    <h1 class="analysis">The Analysis</h1>
+    <h1 class = "an-line"></h1>
+    <p class = "analysis-desc">
+        When I first heard the theme ‘security’ my initial thought was Cyber Security, but it felt too straightforward. 
+        Instead, I wanted to approach the topic from a more creative angle. One idea was an environmental security game
+         that would educate users on climate change issues and ways they could help. In addition, I also envisioned 
+         a campus security app that would include features such as security and weather alerts, important contact 
+         information, and a platform for reporting lost and found items. Ultimately, my team decided to go with this idea.  
+    </p>
+
+    <h1 class="design">The Design</h1>
+    <h1 class = "de-line"></h1>
+    <p class = "design-desc">
+        My primary role on the team was centered on enhancing the user experience. During the ideation phase, 
+        I used whiteboards to visualize the various web pages of our project. We planned to include a home screen,
+         a lost and found section, a weather alert page, and a mental health resources page. 
+
+        In addition to organizing the website’s layout and content, I contributed with design elements as well. 
+        Using Adobe Illustrator, I created several graphics while sticking to a central color scheme centered 
+        around the school’s brand colors—green and gold.  
+    </p>
+
+    <h1 class="implement">The Implementation</h1>
+    <h1 class = "im-line"></h1>
+    <p class = "implement-desc">
+        For the front end of our project, we used React, while the backend was built using Springboot and Java. 
+        Prior to the competition, I had no experience with these frameworks, so I found it very insightful to learn 
+        the basics. We also used Github and various Git commands to implement changes.  
+    </p>
+
+    <h1 class="problem">The Problem Resolution</h1>
+    <h1 class = "pr-line"></h1>
+    <p class = "problem-desc">
+        Over the course of the weekend, our team gained valuable insights on overcoming technological challenges. 
+        One major problem was figuring out how to navigate between web pages using a top navigation bar. Despite our 
+        efforts, none of the solutions seemed to work. Eventually, I suggested consolidating everything into a single 
+        page. This approach allowed us to move forward with the project, ensuring we could still include all the content 
+        we wanted, just in a different format than originally planned.  
+
+        Although it might sound cheesy, another challenge we faced was learning how to work efficiently as a team. 
+        Everyone brought unique perspectives and skills to the team, the only task was meshing them together! 
+        The other members were primarily focused on the data and math aspects of the project, while I made significant 
+        contributions to the design and user experience. Afterall, a website is only as good as its usability!  
+    </p>
+
+    <h1 class ="graphics">Graphics</h1>
+    <h1 class = "gr-line"></h1>
+    <p class = "gr-desc">
+        Here are some graphics I created for the project!
+    </p>
+
+<div class = "row">
+    <div class = "column"> 
+        <img src = "Mole-Icon.png" alt = "Mole" class = "Mole-Icon"/>
+</div>
+    <div class = "column"> 
+        <img src = "Logo-Font.png" alt = "Logo" class = "Logo-Font"/>
+</div>
+    <div class = "column"> 
+        <img src = "Minecart.png" alt = "Minecart" class = "Minecart"/>
+    </div>
+</div>
+
+
+    <style>
+        p {
+               text-indent: 50px; /* Adjust the value as needed */
+           }
+           
+    .planning {
+        font-size: 50px;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+        margin: 0;
+    }
+
+    .pl-line {
+        border-bottom: 5px solid #877f8a; /* Creates a line */
+        margin: -12px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+}
+
+    .planning-desc {
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+   
+    .analysis {
+        font-size: 50px;
+        top: 30%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+    }
+
+    .an-line {
+        border-bottom: 5px solid #877f8a; /* Creates a line */
+        margin: -45px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+}
+
+    .analysis-desc {
+        top: 40%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+    .design {
+        font-size: 50px;
+        top: 63%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+    }
+
+    .de-line {
+        border-bottom: 5px solid #877f8a;/* Creates a line */
+        margin: -45px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+}
+
+    .design-desc {
+        top: 73%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+    .implement {
+        font-size: 50px;
+        top: 93%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+    }
+
+    .im-line {
+        border-bottom: 5px solid #877f8a; /* Creates a line */
+        margin: -45px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+}
+
+    .implement-desc {
+        top: 103%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+    .problem {
+        font-size: 50px; 
+        top: 118%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+    }
+
+    .pr-line {
+        border-bottom: 5px solid #877f8a; /* Creates a line */
+        margin: -45px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+}
+
+    .problem-desc {
+        top: 128%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+    
+    .graphics {
+        font-size: 50px; 
+        top: 118%;
+        left: 1%;
+        font-family: Acme, sans-serif;
+        color: #877f8a;
+    }
+
+    .gr-line {
+        border-bottom: 5px solid #877f8a; /* Creates a line */
+        margin: -45px 0 0 0; /* Margin above and below the line */
+        height: 0; /* Ensure no height is added */
+        width: 55%;
+    }
+
+    .gr-desc {
+        top: 128%;
+        left: 1%;
+        font-family: Signika Negative, sans-serif;
+        color: #644f51;
+        font-size: 30px;
+        max-width: 95%; /* Set a maximum width for the text container */
+        overflow-wrap: break-word; /* Ensure words wrap properly within the container */ 
+    }
+
+img.Mole-Icon {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0; 
+    object-fit: contain;
+}
+
+img.Logo-Font {
+    width: 550px;
+    height: auto;
+    display: block;
+    margin: 0; 
+    object-fit: contain;
+    margin-top: 130px;
+}
+
+img.Minecart {
+    width: 480px;
+    height: auto;
+    display: block;
+    margin: 0; 
+    object-fit: contain;
+}
+
+
+
+</style>
+
+</body>
+</head>

@@ -26,11 +26,50 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
 
-
+<style>
+    * {
+        box-sizing: border-box;
+      }
+      
+      .row {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+      }
+      
+      .column {
+        flex: 33.33%; /* Each column takes up one-third of the row */
+        padding: 4px;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          flex: 100%; /* Each column takes up the full width */
+        }
+      }
+</style>      
+    
+<body>
+    
+<div class="row">
+    <div class="column">
 <!-- Website A-->
-<a href = "Website About.html">
-    <img src = "Website Cup.png" alt = "Website cup" class = "Website-Cup"/>
-</a>
+        <a href = "Website About.html">
+             <img src = "Website Cup.png" alt = "Website cup" class = "Website-Cup"/>
+        </a>
+    </div>
+<!-- Mobile A-->
+    <div class="column">
+        <a href = "Mobile About.html">
+            <img src = "Mobile Cup.png" alt = "Mobile cup" class = "Mobile-Cup"/>
+        </a>
+    </div>
+<!-- Hackathon A-->
+    <div class="column">
+        <a href = "Hackathon About.html">
+            <img src = "Hackathon Cup.png" alt = "Hackathon cup" class = "Hackathon-Cup"/>
+        </a>
+    </div>
 
 <style>
 .Website-Cup {
@@ -49,14 +88,6 @@
         transform: translateY(-20px); /* Bounce up */
     }
 }
-</style>
-
-<!-- Hackathon A-->
-<a href = "Hackathon About.html">
-    <img src = "Hackathon Cup.png" alt = "Hackathon cup" class = "Hackathon-Cup"/>
-</a>
-
-<style>
 .Hackathon-Cup {
     transition: transform 0.2s ease-out; /* Smooth transition for transform */
 }
@@ -73,14 +104,7 @@
         transform: translateY(-20px); /* Bounce up */
     }
 }
-</style>
 
-<!-- Mobile A-->
- <a href = "Mobile About.html">
-     <img src = "Mobile Cup.png" alt = "Mobile cup" class = "Mobile-Cup"/>
-</a>
-
-<style>
     .Mobile-Cup {
     transition: transform 0.10s ease-out; /* Smooth transition for transform */
 }
@@ -99,5 +123,6 @@
 }
 
 </style>
+
 </body>
 </html>

@@ -451,127 +451,211 @@ img.Postcard-image {
 }
 
 /* About Page */
-.Self-image {
-    width: 500px; 
-    height: auto; 
-    position: absolute; 
-    z-index: 1;
-    left: 5%;
-    display: block; 
+    * {
+        box-sizing: border-box;
+      }
+
+      .about-row {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+      }
+      
+      .about-column {
+        flex: 25%; /* Each column takes up one-third of the row */
+        padding: 4px;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
+      @media screen and (max-width: 500px) {
+        .about-column {
+          flex: 100%; /* Each column takes up the full width 
+        }
+      }*/
+
+/* Intro Section Container */
+.intro-section {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 40px; /* Adds space between the image and the text */
+    margin: 30px; /* Adds space at the top of the section */
 }
+
+/* Self Image */
+.Self-image {
+    width: 600px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0px;
+}
+
+/* Intro Text Container */
+.intro-text {
+    display: flex;
+    flex-direction: column; /* Stacks title and info vertically */
+    justify-content: center; /* Vertically centers the text within the container */
+}
+
 
 /* About Title */
 .About-Title {
-    position: absolute; 
-    z-index: 2;
-    top: 4%;
-    left: 35%;
     font-family: Acme, sans-serif;
     color: #bda8d1;
     font-size: 50px;
+    text-align: left; /* Ensures the text is aligned to the left */
+    margin: 0px;
+    padding: 0px;
 }
+
 /* About Info */
 .School-Info {
-    position: absolute; 
-    z-index: 3;
-    top: 11%;
-    left: 35%;
     font-family: Signika Negative, sans-serif;
     color: #ac8b72;
     font-size: 40px;
-    max-width: 60%; /* Set a maximum width for the text container */
     overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+    text-align: left; /* Ensures the text is aligned to the left */
+}
+
+/* Website Section Container */
+.website-section {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 50px; /* Adds space between the image and the text */
+    margin-top: 85px; /* Adds space at the top of the section */
 }
 
 .Mushroom-Image {
-    width: 950px; 
-    height: auto; 
-    position: absolute; 
-    z-index: 4;
-    left: 50%;
-    top: 600px;
-    display: block; 
+    width: 800px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0px;
+    padding: 0px;
 }
 
-.Why-Info {
-    position: absolute; 
-    z-index: 5;
-    top: 920px;
-    left: 5%;
+.website-text {
     font-family: Signika Negative, sans-serif;
     color: #ac8b72;
     font-size: 40px;
-    max-width: 50%; /* Set a maximum width for the text container */
     overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+    text-align: left; /* Ensures the text is aligned to the left */
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Law Section */
+.law-section {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 40px; /* Adds space between the image and the text */
+    margin: 30px; /* Adds space at the top of the section */
 }
 
 .Moth-Image {
-    width: 700px; 
-    height: auto; 
-    position: absolute; 
-    z-index: 6;
-    left: 1%;
-    top: 1475px;
-    display: block; 
+    width: 700px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-top: 0px;
+    padding: 0px;
 }
 
-.Law-Info {
-    position: absolute; 
-    z-index: 7;
-    top: 1640px;
-    left: 40%;
+.law-text { 
     font-family: Signika Negative, sans-serif;
     color: #ac8b72;
     font-size: 40px;
-    max-width: 60%; /* Set a maximum width for the text container */
-    overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+    text-align: left; /* Ensures the text is aligned to the left */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Hobby Section */
+.hobby-section {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 40px; /* Adds space between the image and the text */
+    margin: 30px; /* Adds space at the top of the section */
 }
 
 .Berry-Image {
-    width: 700px; 
-    height: auto; 
-    position: absolute; 
-    z-index: 8;
-    left: 60%;
-    top: 2275px;
-    display: block; 
+    width: 600px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-top: 90px;
+    padding: 0px;
 }
 
-.Free-Time {
-    position: absolute; 
-    z-index: 9;
-    top: 2475px;
-    left: 5%;
+.hobby-text {
     font-family: Signika Negative, sans-serif;
     color: #ac8b72;
     font-size: 40px;
-    max-width: 50%; /* Set a maximum width for the text container */
-    overflow-wrap: break-word; /* Ensure words wrap properly within the container */  
+    overflow-wrap: break-word; /* Ensure words wrap properly within the container */
+    text-align: left; /* Ensures the text is aligned to the left */
+    margin: 0px;
+    padding: 0px;
 }
+
+@media screen and (max-width: 1300px) {
+    * {
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .about-row {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+        gap: 20px; /* Adds space between columns */
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .about-column {
+        flex: 1; /* Allows columns to grow and shrink as needed */
+        min-width: 300px; /* Minimum width to avoid columns becoming too narrow */
+        padding: 10px; /* Adds space around each column */
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .intro-section, .website-section, .law-section, .hobby-section {
+        display: flex;
+        flex-direction: column; /* Stacks image and text vertically */
+        align-items: center; /* Centers content horizontally */
+        gap: 10px; /* Space between image and text */
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .Self-image, .Mushroom-Image, .Moth-Image, .Berry-Image {
+        width: 100%; /* Makes the images responsive */
+        max-width: 500px; /* Sets a maximum width */
+        height: auto; /* Maintains aspect ratio */
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .intro-text, .website-text, .law-text, .hobby-text {
+        width: 100%; /* Ensures text containers take up full width of their column */
+        max-width: 100%; /* Ensures text containers do not exceed their column width */
+        text-align: center; /* Centers text horizontally */
+    }
+  }
+/* Projects Page */
 
 .Website-Cup {
     width: 600px; 
     height: auto; 
-    position: absolute; 
-    z-index: 1;
     display: block; 
 }
 .Mobile-Cup {
     width: 600px; 
     height: auto; 
-    position: absolute; 
-    z-index: 2;
-    left: 35%;
-    top: 150px;
     display: block; 
+    margin-top: 83px;
 }
 
 .Hackathon-Cup {
     width: 600px; 
     height: auto; 
-    position: absolute; 
-    z-index: 3;
-    left: 68%;
     display: block; 
 }
 
